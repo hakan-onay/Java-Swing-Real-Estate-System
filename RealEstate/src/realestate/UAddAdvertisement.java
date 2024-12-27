@@ -133,10 +133,6 @@ public class UAddAdvertisement extends JFrame {
         addButton.setBounds(250, 485, 100, 30);
         addAdvertisementFrame.add(addButton);
 
-        JButton removeButton = new JButton("REMOVE");
-        removeButton.setBounds(400, 485, 100, 30);
-        addAdvertisementFrame.add(removeButton);
-
         JButton backButton = new JButton("BACK");
         backButton.setBounds(550, 485, 100, 30);
         addAdvertisementFrame.add(backButton);

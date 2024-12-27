@@ -51,19 +51,19 @@ public class APropertyTypesView extends JFrame {
         propertyTypesFrame.add(nameTextField);
 
         addButton = new JButton("ADD");
-        addButton.setBounds(100, 485, 100, 30);
+        addButton.setBounds(150, 485, 100, 30);
         propertyTypesFrame.add(addButton);
 
         editButton = new JButton("EDIT");
-        editButton.setBounds(250, 485, 100, 30);
+        editButton.setBounds(300, 485, 100, 30);
         propertyTypesFrame.add(editButton);
 
         removeButton = new JButton("REMOVE");
-        removeButton.setBounds(400, 485, 100, 30);
+        removeButton.setBounds(450, 485, 100, 30);
         propertyTypesFrame.add(removeButton);
 
         backButton = new JButton("BACK");
-        backButton.setBounds(550, 485, 100, 30);
+        backButton.setBounds(600, 485, 100, 30);
         propertyTypesFrame.add(backButton);
 
         listModel = new DefaultListModel<>();

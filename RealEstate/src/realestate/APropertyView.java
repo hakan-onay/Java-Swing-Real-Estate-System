@@ -148,19 +148,19 @@ public class APropertyView extends JFrame {
         propertyFrame.add(liftCheckBox);
 
         showButton = new JButton("SHOW");
-        showButton.setBounds(50, 485, 100, 30);
+        showButton.setBounds(150, 485, 100, 30);
         propertyFrame.add(showButton);
 
         addButton = new JButton("ADD");
-        addButton.setBounds(200, 485, 100, 30);
+        addButton.setBounds(300, 485, 100, 30);
         propertyFrame.add(addButton);
 
         editButton = new JButton("EDIT");
-        editButton.setBounds(400, 485, 100, 30);
+        editButton.setBounds(450, 485, 100, 30);
         propertyFrame.add(editButton);
 
         backButton = new JButton("BACK");
-        backButton.setBounds(700, 485, 100, 30);
+        backButton.setBounds(600, 485, 100, 30);
         propertyFrame.add(backButton);
 
         showButton.addActionListener(new ActionListener() {
